@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Value Quoting</title>
+<link rel="icon" href="assets/brand-arrow.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@500;600;700&family=Michroma&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand lockup" href="#/quotes" aria-label="Value Quoting, all quotes">
+    <img src="assets/value-wordmark.png" alt="Value">
+    <span class="strap fill" aria-hidden="true"><b>Q</b><b>U</b><b>O</b><b>T</b><b>I</b><b>N</b><b>G</b></span>
+  </a>
+  <nav class="nav" aria-label="Main">
+    <a href="#/quotes" data-nav="quotes">Quotes</a>
+    <a href="#/approvals" data-nav="approvals">Approvals<em id="nav-badge" hidden></em></a>
+    <a href="#/setup" data-nav="setup">Set-up</a>
+  </nav>
+  <p class="demo-note">Mockup. Customers, people and prices are invented.</p>
+  <div class="user">
+    <button class="avatar" data-act="user-menu" aria-haspopup="true" aria-label="Sam Naidoo, menu">SN</button>
+    <div id="user-menu" hidden>
+      <p><b>Sam Naidoo</b><span>Business Development Executive</span></p>
+      <button data-act="reset-demo">Start the demo again</button>
+    </div>
+  </div>
+</header>
+<div id="app"></div>
+<script src="data.js"></script>
+<script src="model.js"></script>
+<script src="doc.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
